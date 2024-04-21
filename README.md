@@ -3,6 +3,10 @@ A URL Shortener with mysql support.
 Using Bijective conversion between natural numbers (IDs) and short strings
 
 # Installation
+```
+cargo run
+```
+
 ## Using docker compose
 ```
 docker-compose up --build
@@ -11,9 +15,6 @@ docker-compose up --build
 
 Edit .env file to add connection strings for mysql  
 Run mysql_init/create_table.sql  
-```
-cargo run
-```
 
 # Usage
 
