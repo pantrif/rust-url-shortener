@@ -1,0 +1,15 @@
+[package]
+name = "url_shortener"
+version = "0.1.0"
+edition = "2021"
+authors = ["Leonidas Maroulis <lmaroulis2003@gmail.com>"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rocket = {version = "0.5.0", features = ["json"]}
+serde = { version = "1.0", features = ["derive"] }
+sqlx = { version = "0.6", features = ["mysql", "runtime-tokio-native-tls"] }
+tokio = { version = "1", features = ["full"] }
+url = "2.2.2"
+mockall = "0.10.2"
