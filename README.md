@@ -2,7 +2,7 @@
 A URL Shortener with mysql support.  
 Using Bijective conversion between natural numbers (IDs) and short strings
 
-# Installation
+# Run
 ```
 cargo run
 ```
